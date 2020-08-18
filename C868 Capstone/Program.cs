@@ -16,7 +16,7 @@ namespace C868_Capstone
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Login());
+			Application.Run(new MainScreen1());
 		}
 	}
 }
