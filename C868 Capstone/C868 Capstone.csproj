@@ -93,18 +93,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataBaseHelper.cs" />
-    <Compile Include="MainScreen1.cs">
+    <Compile Include="TicketTemplate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen1.Designer.cs">
-      <DependentUpon>MainScreen1.cs</DependentUpon>
+    <Compile Include="TicketTemplate.Designer.cs">
+      <DependentUpon>TicketTemplate.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainScreen3.cs">
+    <Compile Include="FormProvider.cs" />
+    <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen3.Designer.cs">
-      <DependentUpon>MainScreen3.cs</DependentUpon>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -112,28 +112,31 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainScreen2.cs">
+    <Compile Include="MainScreenDos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen2.Designer.cs">
-      <DependentUpon>MainScreen2.cs</DependentUpon>
+    <Compile Include="MainScreenDos.Designer.cs">
+      <DependentUpon>MainScreenDos.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewCustomer.cs">
+    <Compile Include="ReportTemplate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewCustomer.Designer.cs">
-      <DependentUpon>NewCustomer.cs</DependentUpon>
+    <Compile Include="ReportTemplate.Designer.cs">
+      <DependentUpon>ReportTemplate.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainScreen1.resx">
-      <DependentUpon>MainScreen1.cs</DependentUpon>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainScreen2.resx">
-      <DependentUpon>MainScreen2.cs</DependentUpon>
+    <EmbeddedResource Include="MainScreenDos.resx">
+      <DependentUpon>MainScreenDos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketTemplate.resx">
+      <DependentUpon>TicketTemplate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -143,7 +146,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReportTemplate.resx">
+      <DependentUpon>ReportTemplate.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -157,6 +164,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plus-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plus-20.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
