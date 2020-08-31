@@ -313,6 +313,42 @@ namespace C868_Capstone
 			}
 		}
 
+		public int AddCustomer(string firstName, string lastName, string phoneNumber)
+		{
+			if (firstName != null && lastName != null && phoneNumber != null)
+			{
+				tbFirst.Text = firstName;
+				tbLast.Text = lastName;
+				tbPhone.Text = phoneNumber;
+				return 1;
+			}
+			return 0;
+		}
+
+		public int EditCustomerInfo(string firstName, string lastName, string phoneNumber)
+		{
+			if (firstName != null && lastName != null && phoneNumber != null)
+			{
+				tbFirst.Text = firstName;
+				tbLast.Text = lastName;
+				tbPhone.Text = phoneNumber;
+				return 1;
+			}
+			return 0;
+		}
+
+		public int DeleteCustomer(string firstName, string lastName, string phoneNumber)
+		{
+			if (firstName != null && lastName != null && phoneNumber != null)
+			{
+				tbFirst.Text = firstName;
+				tbLast.Text = lastName;
+				tbPhone.Text = phoneNumber;
+				return 1;
+			}
+			return 0;
+		}
+
 		private void PopulateCustInfoSec()
 		{
 			//Populate customer info section 
