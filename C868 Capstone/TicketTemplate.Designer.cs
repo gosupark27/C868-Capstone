@@ -346,7 +346,7 @@
 			this.cbRS.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.cbRS.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cbRS.FormattingEnabled = true;
-			this.cbRS.Location = new System.Drawing.Point(115, 7);
+			this.cbRS.Location = new System.Drawing.Point(115, 6);
 			this.cbRS.Name = "cbRS";
 			this.cbRS.Size = new System.Drawing.Size(150, 24);
 			this.cbRS.TabIndex = 5;
@@ -484,7 +484,7 @@
 			this.cbCI.Anchor = System.Windows.Forms.AnchorStyles.Right;
 			this.cbCI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cbCI.FormattingEnabled = true;
-			this.cbCI.Location = new System.Drawing.Point(221, 6);
+			this.cbCI.Location = new System.Drawing.Point(221, 5);
 			this.cbCI.Name = "cbCI";
 			this.cbCI.Size = new System.Drawing.Size(149, 24);
 			this.cbCI.TabIndex = 4;
@@ -523,7 +523,7 @@
 			this.cbCat.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.cbCat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cbCat.FormattingEnabled = true;
-			this.cbCat.Location = new System.Drawing.Point(112, 6);
+			this.cbCat.Location = new System.Drawing.Point(112, 5);
 			this.cbCat.Name = "cbCat";
 			this.cbCat.Size = new System.Drawing.Size(150, 24);
 			this.cbCat.TabIndex = 9;

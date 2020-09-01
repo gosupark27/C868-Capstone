@@ -12,7 +12,7 @@ namespace C868.Capstone.Tests
     public class CustomerTests
     {
         [Fact]
-        public void EditCustomerName()
+        public void EditCustomer()
         {
             //Arrange
             var expectedFirstName = "John";
@@ -32,7 +32,7 @@ namespace C868.Capstone.Tests
         }
 
         [Fact]
-        public void AddCustomerName()
+        public void AddCustomer()
         {
             //Arrange
             var expectedFirstName = "John";
@@ -52,7 +52,7 @@ namespace C868.Capstone.Tests
         }
 
         [Fact]
-        public void DeleteCustomerName()
+        public void DeleteCustomer()
         {
             //Arrange
             var expectedFirstName = "John";

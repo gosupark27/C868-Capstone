@@ -16,7 +16,7 @@ namespace C868_Capstone
 {
 	public partial class MainScreen : Form
 	{
-		string connString = "server = localhost; database=shoerepair_pos; Uid = root; pwd=july72794!; persistsecurityinfo = True; Allow User Variables=True";
+		string connString = "server = 192.168.29.210; database=shoerepair_pos; Uid = root; pwd=123; persistsecurityinfo = True; Allow User Variables=True";
 		DataTable custSearchDT = new DataTable();
 		DataTable ticketDT = new DataTable(); //TODO: DELETE!!!
 		string placeholderText = "FirstName LastName";

@@ -21,7 +21,7 @@ namespace C868_Capstone
 		bool costPass, pickupPass;
 		string custName;
 		string state;
-		string connString = "server = localhost; database=shoerepair_pos; Uid = root; pwd=july72794!; persistsecurityinfo = True; Allow User Variables=True";
+		string connString = "server = 192.168.29.210; database=shoerepair_pos; Uid = root; pwd=123; persistsecurityinfo = True; Allow User Variables=True";
 		Dictionary<string, int> categoryDict = new Dictionary<string, int>() { {"Pick category", 0 }, { "Women's Shoes", 1 }, { "Men's Shoes", 2 }, { "Luggage", 3 } };
 		Font myFont = new Font("Arial", 10, FontStyle.Regular);
 		DateTime dropDate;
