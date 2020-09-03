@@ -18,7 +18,7 @@ namespace C868_Capstone
 		string reportName = "";
 		DataTable reportDT = new DataTable();
 		DataTable reportDTBind = new DataTable();
-		string connString = "server = 192.168.29.210; database=shoerepair_pos; Uid = root; pwd=123; persistsecurityinfo = True; Allow User Variables=True";
+		string connString = "server = aws-mysql-db.cz5ogt977vnc.us-east-1.rds.amazonaws.com; database=shoerepair_pos; Uid = admin; pwd=july72794!; persistsecurityinfo = True; Allow User Variables=True";
 
 		private void btnBack_Click(object sender, EventArgs e)
 		{
